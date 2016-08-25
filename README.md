@@ -1,6 +1,6 @@
 # Node.js-Lynda-excercises
 
-* List of Excercises
+## List of Excercises
 <br />
 * 3.1 Global Object
 * 3.2 Process.argv
