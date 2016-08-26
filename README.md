@@ -27,4 +27,16 @@
 * 6.2 Building a Web Server (http.createServer(), res.writeHead(), server.listen())
 * 6.2 Serving Files (.listen(), Hosting CSS and images with GET requests)
 * 6.2 Serving JSON Data (res.end(JSON.stringify('data')), data.filter-to filter through JSON data/ This is crucial for API development)
-* 6.2 Collecting POST data (in html, method = "post", .pipe(res), GET vs POST)
+* 6.2 Collecting POST data (in html, method = "post", .pipe(res), GET vs POST)  <br />
+
+* 7.1 npm installs 
+*httpster -p 3000 -d ./desiredFolder/<br />
+
+* 8.1 Package.json (installation of express, cors, body-parser)
+* 8.2 Intro to Express (adding middleware - express.static(), req.method)
+* 8.3 Express Routing and CORS (app.get, app.use(cors))
+* 8.4 Express post bodies and params (POST, DELETE, what body-parser does)
+
+* 9.1 WebSocket Server (TCP server, WS module)
+* 9.2 Broadcasting Info via SocketServer (loop through clients to have different messages) 
+* 9.3 Creating webSockets with Socket.IO (build web sockets with own proxy) 
