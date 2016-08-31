@@ -29,8 +29,7 @@
 * 6.2 Serving JSON Data (res.end(JSON.stringify('data')), data.filter-to filter through JSON data/ This is crucial for API development)
 * 6.2 Collecting POST data (in html, method = "post", .pipe(res), GET vs POST)  <br />
 
-* 7.1 npm installs 
-*httpster -p 3000 -d ./desiredFolder/<br />
+* 7.1 npm installs (httpster -p 3000 -d ./desiredFolder/)<br />
 
 * 8.1 Package.json (installation of express, cors, body-parser)
 * 8.2 Intro to Express (adding middleware - express.static(), req.method)
@@ -38,5 +37,22 @@
 * 8.4 Express post bodies and params (POST, DELETE, what body-parser does)
 
 * 9.1 WebSocket Server (TCP server, WS module)
-* 9.2 Broadcasting Info via SocketServer (loop through clients to have different messages) 
-* 9.3 Creating webSockets with Socket.IO (build web sockets with own proxy) 
+* 9.2 Broadcasting Info via SocketServer (loop through clients to have different messages)
+* 9.3 Creating webSockets with Socket.IO (build web sockets with own proxy)  <br />
+
+* 10.1 Testing with Mocha and Chai (chai goes to local dir, expect = require("chai").expect)
+* 10.2 Async Mocha (testing async calls to API)
+* 10.3 Mocking a server with Nock
+* 10.4 Injecting Dependencies with rewire
+* 10.5 Testing Sinon spies
+* 10.6 Sinon stubs
+* 10.7 Istanbul
+* 10.8 Testing HTTP endpoints with SuperTest
+* 10.9 Checking Server Responses with Cheerio
+
+* 11.1 Grunt (building a grunt file)
+* 11.2 Css with Grunt (preprocessing CSS)
+* 11.3 Browserify (building grunt file with Browserify)
+* 11.4 Grunt Watch
+* 11.5 Automation with NPM (preinstalled npm scripts- start, dev, prestart, predev)
+* 11.6 debugging with NPM
